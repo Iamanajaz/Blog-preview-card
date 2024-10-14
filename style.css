@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-color:rgb(255, 255, 36); */
+    background-color: #DFC44C;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 18px;
+    width: 330px;
+    /* height: 500px; */
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 10px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 1) 1px 1px 0px, rgb(0, 0, 0) 10px 12px 0px 0px
+}
+
+
+#card1{
+    /* border: 3px solid black; */
+    border-radius: 10px;
+    width: 100%;
+    
+}
+.container #learning{
+    /* margin: 10px 10px 10px 10px; */
+    margin-top: 17px;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #F1C40F;
+    border-radius: 5px;
+    text-transform: capitalize;
+
+}
+.date{
+    font-size: 12px;
+    margin-top: 8px;
+    color: #4b4a4a;;
+    font-weight: bold;
+}
+.container h1{
+    text-transform: capitalize;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.para{
+    font-size: 14px;
+    color: #535353;
+    margin-bottom: 9px;
+    line-height: 1.4;
+}
+#author{
+    text-align: center;
+    display: flex;
+    column-gap: 10px;
+    /* align-items: center; */
+
+}
+.username{
+    color: rgb(83, 83, 83); 
+    line-height: 1.4; 
+    font-size: 14px; 
+    margin-top: 11px;
+    font-weight:bold;
+    
+}
+#logo{
+    border-radius: 50%;
+    width: 40px;
+}
